@@ -49,14 +49,6 @@ As well as the entire schema visualization and an example subgraph:
   </tr>
 </table>
 
-[grid]
-
-![visualisation|681x500](upload://6A1mJFskTMrvNcZHLAsRQC3YjdU.png)
-
-![bloom-visualisation|690x446](upload://pDoWourxW1RDzDGCl427z99fQJq.png)
-
-[/grid]
-
 
 A summary of the graph database model the above images illustrate:
 
@@ -103,15 +95,6 @@ For the Aura Agent to handle specific types of user requests, we setup 3 types o
 </table>
 
 
-[grid]
-
-![AuraAgent1|269x500](upload://p9RDQ7gV4IOqb1M6DdE6lkGZ8lk.jpeg)
-
-![AuraAgent2|283x500](upload://yQNBh6dldZtXBlUgBvmokdf89Es.jpeg)
-
-[/grid]
-
-
 ### Cypher Template
 
 This type of tool can be used by the agent to answer inquiries with repeatable queries against the graph. Those questions can revolve around:
@@ -144,17 +127,6 @@ Let's portray the Cypher Template tools we have equipped our agent with.
 </table>
 
 
-[grid]
-
-![image|518x500](upload://4pVboUgj9jYVkhGmRwGaQET6wTf.png)
-
-![image|494x500](upload://xFoQxnFcAboGW0QyVrRyFLogL06.png)
-
-![image|471x500](upload://5UAPCDGx2hQEBNYEJjeQrt9N7RR.png)
-
-[/grid]
-
-
 ### Similarity Search
 
 Something to have noted in an above screenshot is that we had an embedding property in the `Listing` node in the graph. While using Structured Streaming to write to our graph, a vector index had been created and afterwards text embeddings using OpenAI. This enables our agent to find listings that match natural-language investment goals.
@@ -176,17 +148,6 @@ Secondly, let's also portray the Similarity Search tools we have equipped our ag
 </table>
 
 
-[grid]
-
-![image|497x500](upload://rgVBXzAb1JounXEH6Az1R99lNA2.png)
-
-![image|473x500](upload://yHoCgpuwFp2JW25qLWV7RXbaEsO.png)
-
-![image|470x500](upload://tLrWAapn1bpl5VEC80ltdYmKQbC.png)
-
-[/grid]
-
-
 ### Text2Cypher
 
 Our previous 2 agent tools depend heavily on relationships & properties existing in the graph, but there may be scenarios where we want to give additional yet related context to the agent to answer a question via an ad-hoc query using NLP. This is especially with respect to inquiries regarding regional comparisons, weather-impact analysis, and description pattern recognition across states/regions.
@@ -206,17 +167,6 @@ Lastly, let's output a snippet of how we setup this tool with instructions.
     <td><img src="AuraMedia/Text2Cypher3.png alt="Text2Cypher 3" width="100%"></td>
   </tr>
 </table>
-
-
-[grid]
-
-![image|479x500](upload://wNuybofIUD3yF6THVRscJx28ccA.png)
-
-![image|480x499](upload://wSl8LhNyQHlc79r8XaKN0TE5meQ.png)
-
-![image|456x500](upload://sm1yvhC1AVgXm0wq2WlO42psY5r.png)
-
-[/grid]
 
 
 ## Reflection
