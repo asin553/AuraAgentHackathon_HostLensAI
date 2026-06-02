@@ -79,7 +79,7 @@ A summary of the graph database model the above images illustrate:
 
 We also can visualize our data by other key metrics and comparisons in a Neo4j dashboard:
 
-![AirbnbNeo4jDashboard|690x368](upload://cQ4lFxb7r3oFmuYhlUwXLFqM9aU.jpeg)
+![hippo](AuraMedia/AirbnbNeo4jDashboard.jpg)
 
 ## Why a Graph Fits
 
@@ -95,6 +95,13 @@ The `ROI` turns rent and earnings into a normalized investment signal, the `Net 
 
 For the Aura Agent to handle specific types of user requests, we setup 3 types of data retrieval tools to query the graph.
 
+<table>
+  <tr>
+    <td><img src="AuraMedia/AuraAgent1.jpg" alt="Agent 1" width="100%"></td>
+    <td><img src="AuraMedia/AuraAgent2.jpg" alt="Agent 2" width="100%"></td>
+  </tr>
+</table>
+
 
 [grid]
 
@@ -102,8 +109,8 @@ For the Aura Agent to handle specific types of user requests, we setup 3 types o
 
 ![AuraAgent2|283x500](upload://yQNBh6dldZtXBlUgBvmokdf89Es.jpeg)
 
-
 [/grid]
+
 
 ### Cypher Template
 
@@ -128,6 +135,14 @@ Let's portray the Cypher Template tools we have equipped our agent with.
 
 #### Example (Multi-Hop):
 
+<table>
+  <tr>
+    <td><img src="AuraMedia/Cypher1.png" alt="Cypher 1" width="100%"></td>
+    <td><img src="AuraMedia/Cypher2.png" alt="Cypher 2" width="100%"></td>
+    <td><img src="AuraMedia/Cypher3.png" alt="Cypher 3" width="100%"></td>
+  </tr>
+</table>
+
 
 [grid]
 
@@ -137,8 +152,8 @@ Let's portray the Cypher Template tools we have equipped our agent with.
 
 ![image|471x500](upload://5UAPCDGx2hQEBNYEJjeQrt9N7RR.png)
 
-
 [/grid]
+
 
 ### Similarity Search
 
@@ -152,6 +167,14 @@ Secondly, let's also portray the Similarity Search tools we have equipped our ag
 
 #### Example:
 
+<table>
+  <tr>
+    <td><img src="AuraMedia/Semantic1.png" alt="Semantic 1" width="100%"></td>
+    <td><img src="AuraMedia/Semantic2.png" alt="Semantic 2" width="100%"></td>
+    <td><img src="AuraMedia/Semantic3.png" alt="Semantic 3" width="100%"></td>
+  </tr>
+</table>
+
 
 [grid]
 
@@ -161,8 +184,8 @@ Secondly, let's also portray the Similarity Search tools we have equipped our ag
 
 ![image|470x500](upload://tLrWAapn1bpl5VEC80ltdYmKQbC.png)
 
-
 [/grid]
+
 
 ### Text2Cypher
 
@@ -176,6 +199,14 @@ Lastly, let's output a snippet of how we setup this tool with instructions.
 
 #### Example:
 
+<table>
+  <tr>
+    <td><img src="AuraMedia/Text2Cypher1.png" alt="Text2Cypher 1" width="100%"></td>
+    <td><img src="AuraMedia/Text2Cypher2.png" alt="Text2Cypher 2" width="100%"></td>
+    <td><img src="AuraMedia/Text2Cypher3.png alt="Text2Cypher 3" width="100%"></td>
+  </tr>
+</table>
+
 
 [grid]
 
@@ -185,8 +216,8 @@ Lastly, let's output a snippet of how we setup this tool with instructions.
 
 ![image|456x500](upload://sm1yvhC1AVgXm0wq2WlO42psY5r.png)
 
-
 [/grid]
+
 
 ## Reflection
 
