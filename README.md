@@ -44,8 +44,8 @@ As well as the entire schema visualization and an example subgraph:
 
 <table>
   <tr>
-    <td><img src=![hippo](AuraMedia/Neo4jGraph.png) alt="Schema Visualization" width="100%"></td>
-    <td><img src=![hippo](AuraMedia/Neo4jSubGraph.png) alt="Subgraph" width="100%"></td>
+    <td><img src="AuraMedia/Neo4jGraph.png" alt="Schema Visualization" width="100%"></td>
+    <td><img src="AuraMedia/Neo4jSubGraph.png" alt="Subgraph" width="100%"></td>
   </tr>
 </table>
 
