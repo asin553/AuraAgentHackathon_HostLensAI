@@ -79,7 +79,9 @@ Sure, it's possible to model this same data in a RDBMS table as disconnected ent
 
 The graph model is compelling because it doesn't treat listings as isolated rows. It models listings through geographic containment. It lets the agent traverse from broad geography to specific properties, then aggregate back upward. That is stronger than a flat table because the agent can reason across various levels:
 
-`Listing economics -> City markets -> State trends -> Regional opportunity`
+```bash
+Listing economics --> City markets --> State trends --> Regional opportunity
+```
 
 The `ROI` turns rent and earnings into a normalized investment signal, the `Net Revenue` gives a simple monthly profitability estimate, and the `Description` supports semantic search as the vector indexes & constraints allow the agent to retrieve listings/cities by meaning. It supports hierarchical market analysis, region-based aggregation, relationship traversal and agentic tool use.
 
