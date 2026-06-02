@@ -126,6 +126,7 @@ Let's portray the Cypher Template tools we have equipped our agent with.
   </tr>
 </table>
 
+We see from the agent's thought process & reasoning that multiple tools could be called upon, showing graph traversal from State -> City -> Listing.
 
 ### Similarity Search
 
@@ -147,6 +148,7 @@ Secondly, let's also portray the Similarity Search tools we have equipped our ag
   </tr>
 </table>
 
+The agent respone demonstrates similarity search over listing descriptions/embeddings while still tying the answer to concrete investment metrics.
 
 ### Text2Cypher
 
@@ -168,6 +170,7 @@ Lastly, let's output a snippet of how we setup this tool with instructions.
   </tr>
 </table>
 
+The user input doesn't just ask for lookups but also graph aggregation, interpretation & domain reasoning. The agent is able to give a detailed response broken down into organized sections by region.
 
 ## Reflection
 
