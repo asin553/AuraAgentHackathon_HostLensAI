@@ -1,7 +1,5 @@
 # 2026 Aura Agent Hackathon Submission - HostLens AI
 
-# HostLens AI - A GraphRAG assistant giving real-time market insights on rental investments using Airbnb data
-
 ## Agent Name
 
 **HostLens AI**
