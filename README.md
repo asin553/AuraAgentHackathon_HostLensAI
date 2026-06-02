@@ -164,7 +164,7 @@ Lastly, let's output a snippet of how we setup this tool with instructions.
   <tr>
     <td><img src="AuraMedia/Text2Cypher1.png" alt="Text2Cypher 1" width="100%"></td>
     <td><img src="AuraMedia/Text2Cypher2.png" alt="Text2Cypher 2" width="100%"></td>
-    <td><img src="AuraMedia/Text2Cypher3.png alt="Text2Cypher 3" width="100%"></td>
+    <td><img src="AuraMedia/Text2Cypher3.png" alt="Text2Cypher 3" width="100%"></td>
   </tr>
 </table>
 
