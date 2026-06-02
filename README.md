@@ -1,4 +1,4 @@
-# 2026 Aura Agent Hackathon - HostLens AI
+# 2026 Aura Agent Hackathon Submission - HostLens AI
 
 # HostLens AI - A GraphRAG assistant giving real-time market insights on rental investments using Airbnb data
 
@@ -30,18 +30,24 @@ It is important to note that one can use any data orchestrator of their choice. 
 
 Below is a depiction of the Selenium WebDriver in action scraping listing data from a few cities:
 
-![AirbnbSeleniumExtract|690x403](upload://7GWZHPKvdAKNWi6GVu7L2Qb8PLM.gif)
+![hippo](AuraMedia/AirbnbSeleniumExtract.gif)
 
 In Airflow's Web UI, we can see our DAG with all of its tasks running successfully on a daily basis:
 
-![AirflowDAGSuccess|690x308](upload://dx5deis1ED5UqbDRYZpMtG1SXwZ.jpeg)
+![hippo](AuraMedia/AirflowDAGSuccess.jpg)
 
 We now have our data loaded into Neo4j. Below is a subset of the graph with all of its nodes, relationships and properties:
 
-![image|928px;x390px;](upload://wsJOdR9COs1wZqwFcDple5qdwAQ.jpeg)
+![hippo](AuraMedia/Neo4jAirbnbFriendlyGraph.jpg)
 
 As well as the entire schema visualization and an example subgraph:
 
+<table>
+  <tr>
+    <td><img src=![hippo](AuraMedia/Neo4jGraph.png) alt="Schema Visualization" width="100%"></td>
+    <td><img src=![hippo](AuraMedia/Neo4jSubGraph.png) alt="Subgraph" width="100%"></td>
+  </tr>
+</table>
 
 [grid]
 
@@ -49,8 +55,8 @@ As well as the entire schema visualization and an example subgraph:
 
 ![bloom-visualisation|690x446](upload://pDoWourxW1RDzDGCl427z99fQJq.png)
 
-
 [/grid]
+
 
 A summary of the graph database model the above images illustrate:
 
