@@ -148,7 +148,7 @@ Secondly, let's also portray the Similarity Search tools we have equipped our ag
   </tr>
 </table>
 
-The agent respone demonstrates similarity search over listing descriptions/embeddings while still tying the answer to concrete investment metrics.
+The agent response demonstrates similarity search over listing descriptions/embeddings while still tying the answer to concrete investment metrics.
 
 ### Text2Cypher
 
